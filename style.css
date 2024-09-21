@@ -12,8 +12,8 @@ body#entrar{
 
 section#entrar{
     background-color: #325164;
-    margin: 100px 50px;
-    height: 300px;
+    margin: 300px 50px;
+    height: auto;
     display: block;
     padding: 10px;
     border-radius: 20px;
