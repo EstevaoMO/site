@@ -1,0 +1,65 @@
+@media (min-width: 720px){
+    /*Criar caixa para simular dimensão do celular*/
+}
+
+
+@media (max-width: 720px){
+
+body#entrar{
+    margin: auto;
+    background-color: #313131;
+    }
+
+section#entrar{
+    background-color: #325164;
+    margin: 100px 50px;
+    height: 300px;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 1px 1px 1px #1b384b85;
+}
+
+div#saudacoes{
+    width: auto;
+    height: auto;
+    margin: 20px;
+    text-align: center;
+}
+
+h1, p{
+    color: #ffffff;
+}
+h1#saudacao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+p#saudacao{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+div#formulario{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+input#form_nome, #form_email, #botao-entrar{
+    border-radius: 8px;
+    padding: 4px;
+    margin: 5px auto;
+}
+
+input#form_nome, #form_email{
+    width: 260px;
+}
+
+input#botao-entrar{
+    width: 100px;
+}
+
+}
