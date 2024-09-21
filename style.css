@@ -7,6 +7,7 @@
 
 body#entrar{
     margin: auto;
+    background-size: cover;
     background-image: url('img/wallpaper.jpg');
     }
 
