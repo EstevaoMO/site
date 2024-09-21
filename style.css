@@ -41,7 +41,7 @@ p#saudacao{
     margin-bottom: 50px;
 }
 
-div#formulario{
+form#formulario-entrar{
     margin: auto;
     display: block;
     text-align: center;
@@ -61,8 +61,9 @@ input#form_nome, #form_email{
     text-align: center;
 }
 
-input#botao-entrar{
+input#botao_entrar{
     width: 100px;
+    border-radius: 9px;
     margin-top: 20px;
     background-color: #fa795c;
 }

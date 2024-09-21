@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="js/form-entrar.js" defer></script>
 
     <title>Supimpei - Entrar</title>
 </head>
@@ -18,11 +19,11 @@
             <p id="saudacao">Olá! Digite suas informações para entrar no nosso site.</p>
         </div>
 
-        <div id="formulario">
-            <input id="form_nome" type="text" placeholder="Usuário"><br>
+        <form id="formulario-entrar">
+            <input id="form_nome" name="nome-usuario" type="text" placeholder="Usuário"><br>
             <input id="form_email" placeholder="Email" type="email"><br>
-            <input id="botao-entrar" type="submit" value="Entrar" onclick="entrar()"><br>
-        </div>
+            <input id="botao_entrar" type="submit" value="Entrar" onclick="entrar()"><br>
+        </form>
 
     </section>
 
