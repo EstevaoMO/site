@@ -7,11 +7,11 @@
 
 body#entrar{
     margin: auto;
-    background-color: #313131;
+    background-image: url('img/wallpaper.jpg');
     }
 
 section#entrar{
-    background-color: #325164;
+    background-color: #f5f5f5;
     margin: 300px 50px;
     height: auto;
     display: block;
@@ -28,7 +28,7 @@ div#saudacoes{
 }
 
 h1, p{
-    color: #ffffff;
+    color: #000000;
 }
 h1#saudacao{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -50,8 +50,10 @@ div#formulario{
 
 input#form_nome, #form_email, #botao-entrar{
     border-radius: 8px;
+    border: solid 1px;
     padding: 4px;
     margin: 5px auto;
+
 }
 
 input#form_nome, #form_email{
@@ -60,6 +62,7 @@ input#form_nome, #form_email{
 
 input#botao-entrar{
     width: 100px;
+    background-color: azure;
 }
 
 }
