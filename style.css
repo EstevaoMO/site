@@ -28,10 +28,8 @@ div#saudacoes{
     text-align: center;
 }
 
-h1, p{
-    color: #000000;
-}
 h1#saudacao{
+    color: #fa5934;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     margin-bottom: 6px;
@@ -59,11 +57,14 @@ input#form_nome, #form_email, #botao-entrar{
 
 input#form_nome, #form_email{
     width: 260px;
+    height: 30px;
+    text-align: center;
 }
 
 input#botao-entrar{
     width: 100px;
-    background-color: azure;
+    margin-top: 20px;
+    background-color: #fa795c;
 }
 
 }
